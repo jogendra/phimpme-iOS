@@ -1,5 +1,13 @@
-# Phimpme-iOS
-Phimp.me - Photo Image Editor and Sharing App
+<img src="/docs/_static/phimpme-logo.png" align="left" hspace="1" vspace="1">
+
+# Phimp.me iOS
+
+Phimp.me is a Photo App for Android that aims to replace proprietary photo applications. It offers features such as taking photos, adding filters, editing images and uploading them to social networks.
+
+[![Gitter Room](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-blue.svg)](https://gitter.im/fossasia/phimpme)
+[![Slack](https://img.shields.io/badge/slack-join%20chat%20%E2%86%92-e01563.svg)](http://fossasia.slack.com)
+
+---
 
 ## Screenshots
 Following design is using for app development:
