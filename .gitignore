@@ -65,3 +65,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# Ignore MacOS DS_Store files
+
+*.DS_Store
