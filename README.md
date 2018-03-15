@@ -16,7 +16,7 @@ Phimp.me is a Photo App for iOS that aims to replace proprietary photo applicati
 
 - [ ] Browse the local gallery inside the app with folder and all photos mode. Copy, move and add a description to the images.
 
-- [ ] Edit images with various cool filters with optimized performance, built using OpenCV library.
+- [ ] Edit images with various cool filters with optimized performance, built using GPUImage framework.
 
 - [ ] Enhance contrast, hue, satur, temp, tint, and sharpness of the image.
 
