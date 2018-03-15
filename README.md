@@ -53,3 +53,16 @@ Following design is using for app development:
     <td><img src="docs/_static/ShareScreen.png" height = "480" width="270"></td>
   </tr>
 </table>
+
+## Branch Policy
+
+**Note:** For the initialization period all commits go directly to the master branch. In the next stages we follow the branch policy as below:
+
+We have the following branches
+* **ipa** - 
+All the automatic builds generates, i.e., the ipas go into this branch
+* **master** - 
+This contains the stable code. After significant features/bugfixes are accumulated on development, we move it to master.
+* **development** - 
+All development goes on in this branch. If you're making a contribution,
+you are supposed to make a pull request to _development_.
