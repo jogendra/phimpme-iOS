@@ -34,6 +34,25 @@ Phimp.me is a Photo App for iOS that aims to replace proprietary photo applicati
 
 ---
 
+## Setting up the iOS Project
+
+1. Clone the repo
+```
+$ git clone https://github.com/imjog/phimpme-iOS.git
+```
+
+
+2. Navigate to the project folder
+```
+$ cd phimpme-iOS
+```
+
+3. Open `Phimpme.xcodeproj` from the folder.
+
+4. Build the project (⌘+B) and check for any errors.
+
+5. Run the app (⌘+R).and test it.
+
 ## Screenshots
 Following design is using for app development:
 <table>
