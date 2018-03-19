@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dZj-8c-bIe">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YFO-v5-Upd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Accounts" id="QmU-Ua-iGU"/>
+                    <tabBarItem key="tabBarItem" title="Accounts" image="user_male" id="QmU-Ua-iGU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zJx-Pe-Yjs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -36,7 +36,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mnn-yO-b5Y"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gallery" id="rvs-ro-6f3"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" image="home" id="rvs-ro-6f3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xO-s0-KVM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,16 +52,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pSN-gB-E13"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera" id="cH1-Co-QHl"/>
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera" largeContentSizeImage="camera-light" id="cH1-Co-QHl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0c-GF-S1d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="934" y="-292"/>
         </scene>
-        <!--Animated Tab Bar Controller-->
+        <!--Tab Bar Controller-->
         <scene sceneID="VrP-xN-Kwb">
             <objects>
-                <tabBarController id="dZj-8c-bIe" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                <tabBarController id="dZj-8c-bIe" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XZH-f8-L2J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -78,4 +78,10 @@
             <point key="canvasLocation" x="-18" y="41"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="camera" width="30" height="30"/>
+        <image name="camera-light" width="40" height="30"/>
+        <image name="home" width="30" height="30"/>
+        <image name="user_male" width="30" height="30"/>
+    </resources>
 </document>

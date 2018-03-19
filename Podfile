@@ -6,6 +6,5 @@ target 'Phimpme' do
   use_frameworks!
 
   # Pods for Phimpme
-  pod 'RAMAnimatedTabBarController'
 
 end
