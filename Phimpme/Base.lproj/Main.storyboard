@@ -20,7 +20,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YFO-v5-Upd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Accounts" image="accounts" id="QmU-Ua-iGU"/>
+                    <tabBarItem key="tabBarItem" title="Accounts" image="accounts" selectedImage="account-fill" id="QmU-Ua-iGU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zJx-Pe-Yjs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -36,7 +36,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mnn-yO-b5Y"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gallery" image="gallery" id="rvs-ro-6f3"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" image="gallery" selectedImage="gallery-fill" id="rvs-ro-6f3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xO-s0-KVM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,7 +52,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pSN-gB-E13"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Camera" image="camera" largeContentSizeImage="camera-light" id="cH1-Co-QHl"/>
+                    <tabBarItem key="tabBarItem" title="Camera" image="camera" selectedImage="camera-fill" id="cH1-Co-QHl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0c-GF-S1d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -79,9 +79,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="account-fill" width="27" height="29"/>
         <image name="accounts" width="27" height="29"/>
-        <image name="camera" width="30" height="30"/>
-        <image name="camera-light" width="40" height="30"/>
+        <image name="camera" width="30" height="23"/>
+        <image name="camera-fill" width="30" height="23"/>
         <image name="gallery" width="30" height="30"/>
+        <image name="gallery-fill" width="30" height="30"/>
     </resources>
 </document>
