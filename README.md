@@ -34,7 +34,7 @@ Phimp.me is a Photo App for iOS that aims to replace proprietary photo applicati
 
 ---
 
-## Setting up the iOS Project
+### Setting up the iOS Project
 
 1. Clone the repo
 ```
@@ -53,7 +53,7 @@ $ cd phimpme-iOS
 
 5. Run the app (⌘+R).and test it.
 
-## Screenshots
+### Screenshots
 Following design is using for app development:
 <table>
   <tr>
@@ -73,7 +73,7 @@ Following design is using for app development:
   </tr>
 </table>
 
-## Branch Policy
+### Branch Policy
 
 **Note:** For the initialization period all commits go directly to the master branch. In the next stages we follow the branch policy as below:
 
@@ -85,3 +85,15 @@ This contains the stable code. After significant features/bugfixes are accumulat
 * **development** - 
 All development goes on in this branch. If you're making a contribution,
 you are supposed to make a pull request to _development_.
+
+### Code practices
+
+Please help us follow the best practice to make it easy for the reviewer as well as the contributor. We want to focus on the code quality more than on managing pull request ethics. 
+
+* Single commit per pull request
+* For writing commit messages please read the [COMMITSTYLE](docs/commitStyle.md) carefully. Kindly adhere to the guidelines.
+* Follow uniform design practices. The design language must be consistent throughout the app.
+* The pull request will not get merged until and unless the commits are squashed. In case there are multiple commits on the PR, the commit author needs to squash them and not the maintainers cherrypicking and merging squashes.
+* If the PR is related to any front end change, please attach relevant screenshots in the pull request description.
+* Please follow the guides and code standards: [Swift Style Guide](https://github.com/linkedin/swift-style-guide)
+* Please follow the good iOS development practices: [iOS Good Practices](https://github.com/futurice/ios-good-practices)
