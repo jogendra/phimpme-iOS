@@ -17,16 +17,16 @@
             <objects>
                 <viewController id="03s-Iz-qrP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hFg-I4-odM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="YFO-v5-Upd"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Accounts" image="accounts" selectedImage="account-fill" id="QmU-Ua-iGU"/>
+                    <navigationItem key="navigationItem" title="Accounts" id="v0s-b2-0zR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zJx-Pe-Yjs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="273" y="842"/>
+            <point key="canvasLocation" x="612" y="841.52923538230891"/>
         </scene>
         <!--Phimpme-->
         <scene sceneID="jex-DL-ffg">
@@ -46,7 +46,7 @@
                             <barButtonItem image="more" id="5Zu-JE-Muv">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </barButtonItem>
-                            <barButtonItem image="albums" id="7az-Fk-UoF">
+                            <barButtonItem image="total-photos" id="7az-Fk-UoF">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </barButtonItem>
                         </rightBarButtonItems>
@@ -54,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xO-s0-KVM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1849" y="542"/>
+            <point key="canvasLocation" x="2188" y="541.97901049475263"/>
         </scene>
         <!--Camera-->
         <scene sceneID="5mZ-6J-9wV">
@@ -81,10 +81,15 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="qDl-q6-Cnp" kind="relationship" relationship="viewControllers" id="OOl-4n-d9r"/>
                         <segue destination="EMg-T8-Uh8" kind="relationship" relationship="viewControllers" id="Q5R-aE-sq5"/>
-                        <segue destination="03s-Iz-qrP" kind="relationship" relationship="viewControllers" id="Kqa-s7-lQY"/>
+                        <segue destination="4vQ-Dl-7ku" kind="relationship" relationship="viewControllers" id="Kqa-s7-lQY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BOL-oQ-WKZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -112,19 +117,45 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWH-Bd-tLm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1046.4000000000001" y="551.42428785607206"/>
+            <point key="canvasLocation" x="1384.8" y="550.97451274362822"/>
+        </scene>
+        <!--Accounts-->
+        <scene sceneID="MqI-89-OUT">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4vQ-Dl-7ku" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Accounts" image="accounts" selectedImage="account-fill" id="QmU-Ua-iGU"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="tpj-91-f56">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="AppThemeColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="03s-Iz-qrP" kind="relationship" relationship="rootViewController" id="WDP-Wx-JEf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="stP-gn-0lC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-204" y="833"/>
         </scene>
     </scenes>
     <resources>
         <image name="account-fill" width="27" height="29"/>
         <image name="accounts" width="27" height="29"/>
-        <image name="albums" width="20" height="20"/>
         <image name="camera" width="30" height="23"/>
         <image name="camera-fill" width="30" height="23"/>
         <image name="gallery" width="30" height="30"/>
         <image name="gallery-fill" width="30" height="30"/>
         <image name="menu" width="20" height="15"/>
         <image name="more" width="4" height="20"/>
+        <image name="total-photos" width="24" height="24"/>
+        <namedColor name="AppThemeColor">
+            <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="AppThemeColor">
             <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
