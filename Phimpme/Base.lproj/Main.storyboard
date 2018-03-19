@@ -46,7 +46,7 @@
                             <barButtonItem image="more" id="5Zu-JE-Muv">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </barButtonItem>
-                            <barButtonItem image="albums" id="7az-Fk-UoF">
+                            <barButtonItem image="total-photos" id="7az-Fk-UoF">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </barButtonItem>
                         </rightBarButtonItems>
@@ -118,13 +118,13 @@
     <resources>
         <image name="account-fill" width="27" height="29"/>
         <image name="accounts" width="27" height="29"/>
-        <image name="albums" width="20" height="20"/>
         <image name="camera" width="30" height="23"/>
         <image name="camera-fill" width="30" height="23"/>
         <image name="gallery" width="30" height="30"/>
         <image name="gallery-fill" width="30" height="30"/>
         <image name="menu" width="20" height="15"/>
         <image name="more" width="4" height="20"/>
+        <image name="total-photos" width="24" height="24"/>
         <namedColor name="AppThemeColor">
             <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
