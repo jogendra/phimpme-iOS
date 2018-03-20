@@ -15,7 +15,7 @@
         <!--Phimpme-->
         <scene sceneID="jex-DL-ffg">
             <objects>
-                <viewController id="OCr-eo-OQf" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                <viewController id="OCr-eo-OQf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oZJ-1l-Lqo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
         <!--Camera-->
         <scene sceneID="5mZ-6J-9wV">
             <objects>
-                <viewController id="qDl-q6-Cnp" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                <viewController id="qDl-q6-Cnp" customClass="CameraViewController" customModule="Phimpme" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sGU-v4-MRl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,7 +135,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="uJa-zv-dN1">
-                            <rect key="frame" x="0.0" y="72" width="375" height="1"/>
+                            <rect key="frame" x="0.0" y="72" width="375" height="0.0"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         </view>
@@ -180,9 +180,6 @@
         <image name="menu" width="20" height="15"/>
         <image name="more" width="4" height="20"/>
         <image name="total-photos" width="24" height="24"/>
-        <namedColor name="AppThemeColor">
-            <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="AppThemeColor">
             <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
