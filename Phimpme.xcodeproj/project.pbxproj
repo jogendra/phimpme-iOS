@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400167D32061A325003EBAE4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400167D22061A324003EBAE4 /* MenuViewController.swift */; };
 		408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0620596AC500BDC313 /* AppDelegate.swift */; };
 		408F1A0920596AC500BDC313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0820596AC500BDC313 /* ViewController.swift */; };
 		408F1A0C20596AC500BDC313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F1A0A20596AC500BDC313 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400167D22061A324003EBAE4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		408F1A0320596AC500BDC313 /* Phimpme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phimpme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F1A0620596AC500BDC313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408F1A0820596AC500BDC313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +54,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4086D8BA20619E0300CE2DE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0820596AC500BDC313 /* ViewController.swift */,
+				40F899B62060F83700471ADF /* AccountsTableViewController.swift */,
+				40F899B8206137B600471ADF /* CameraViewController.swift */,
+				400167D22061A324003EBAE4 /* MenuViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4086D8BB20619E2100CE2DE4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0A20596AC500BDC313 /* Main.storyboard */,
+				408F1A0F20596AC500BDC313 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		408F19FA20596AC400BDC313 = {
 			isa = PBXGroup;
 			children = (
@@ -74,13 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				408F1A0620596AC500BDC313 /* AppDelegate.swift */,
-				408F1A0820596AC500BDC313 /* ViewController.swift */,
-				408F1A0A20596AC500BDC313 /* Main.storyboard */,
+				4086D8BA20619E0300CE2DE4 /* Controllers */,
+				4086D8BB20619E2100CE2DE4 /* Storyboards */,
 				408F1A0D20596AC500BDC313 /* Assets.xcassets */,
-				408F1A0F20596AC500BDC313 /* LaunchScreen.storyboard */,
 				408F1A1220596AC500BDC313 /* Info.plist */,
-				40F899B62060F83700471ADF /* AccountsTableViewController.swift */,
-				40F899B8206137B600471ADF /* CameraViewController.swift */,
 			);
 			path = Phimpme;
 			sourceTree = "<group>";
@@ -224,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				408F1A0920596AC500BDC313 /* ViewController.swift in Sources */,
+				400167D32061A325003EBAE4 /* MenuViewController.swift in Sources */,
 				40F899B9206137B600471ADF /* CameraViewController.swift in Sources */,
 				40F899B72060F83700471ADF /* AccountsTableViewController.swift in Sources */,
 				408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */,

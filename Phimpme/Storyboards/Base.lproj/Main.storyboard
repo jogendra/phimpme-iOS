@@ -25,6 +25,11 @@
                     <navigationItem key="navigationItem" title="Phimpme" id="ro4-mr-piX">
                         <barButtonItem key="leftBarButtonItem" image="menu" id="l75-Y2-uAL">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="2qw-Qd-dWK" kind="popoverPresentation" popoverAnchorBarButtonItem="l75-Y2-uAL" id="21z-qX-r95">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
                         </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem image="more" id="5Zu-JE-Muv">
@@ -38,7 +43,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0xO-s0-KVM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2188" y="541.97901049475263"/>
+            <point key="canvasLocation" x="2122" y="479"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="Bwf-OH-j4g">
+            <objects>
+                <viewController id="2qw-Qd-dWK" customClass="MenuViewController" customModule="Phimpme" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yet-31-QiT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tv2-QB-ddk">
+                                <rect key="frame" x="16" y="28" width="12" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Arrow-back"/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="2qw-Qd-dWK" eventType="touchUpInside" id="hcG-zJ-cmp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="AppThemeColor"/>
+                        <viewLayoutGuide key="safeArea" id="ZHX-6g-3RP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TvH-Xw-fqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2978" y="478"/>
         </scene>
         <!--Camera-->
         <scene sceneID="5mZ-6J-9wV">
@@ -171,6 +201,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Arrow-back" width="12" height="20"/>
         <image name="account-fill" width="27" height="29"/>
         <image name="accounts" width="27" height="29"/>
         <image name="camera" width="30" height="23"/>
@@ -180,6 +211,9 @@
         <image name="menu" width="20" height="15"/>
         <image name="more" width="4" height="20"/>
         <image name="total-photos" width="24" height="24"/>
+        <namedColor name="AppThemeColor">
+            <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="AppThemeColor">
             <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
