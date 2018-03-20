@@ -15,7 +15,7 @@
         <!--Phimpme-->
         <scene sceneID="jex-DL-ffg">
             <objects>
-                <viewController id="OCr-eo-OQf" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                <viewController id="OCr-eo-OQf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oZJ-1l-Lqo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
         <!--Camera-->
         <scene sceneID="5mZ-6J-9wV">
             <objects>
-                <viewController id="qDl-q6-Cnp" customClass="RAMAnimatedTabBarController" customModule="RAMAnimatedTabBarController" sceneMemberID="viewController">
+                <viewController id="qDl-q6-Cnp" customClass="CameraViewController" customModule="Phimpme" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sGU-v4-MRl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
