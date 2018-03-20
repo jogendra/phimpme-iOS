@@ -10,7 +10,8 @@ import UIKit
 
 class AccountsTableViewController: UITableViewController {
 
-    var accountsName: [String] = ["Facebook", "Twitter", "Instagram", "NextCloud", "Pinterest", "Flickr", "Imgur", "Dropbox", "Owncloud", "Box", "Tumblr"]
+    var accountsName: [String] = ["Facebook", "Twitter", "Instagram", "NextCloud", "Pinterest", "Flickr", "Dropbox", "Owncloud", "Box", "Tumblr"]
+    var accountsImagesName: [String] = ["facebook-circled-icon", "twitter-icon", "instagram-icon", "nextcloud-icon", "pinterest-icon", "flickr-filled-icon", "dropbox-icon", "owncloud-icon", "box-icon", "tumblr-icon"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +36,7 @@ class AccountsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "accountsCell", for: indexPath)
         cell.textLabel?.text = accountsName[indexPath.row]
+        cell.imageView?.image = UIImage(named: accountsImagesName[indexPath.row])
 
         return cell
     }
