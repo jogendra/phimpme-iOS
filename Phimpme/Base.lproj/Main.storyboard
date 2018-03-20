@@ -135,7 +135,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <view key="tableFooterView" contentMode="scaleToFill" id="uJa-zv-dN1">
-                            <rect key="frame" x="0.0" y="72" width="375" height="1"/>
+                            <rect key="frame" x="0.0" y="72" width="375" height="0.0"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         </view>
@@ -180,9 +180,6 @@
         <image name="menu" width="20" height="15"/>
         <image name="more" width="4" height="20"/>
         <image name="total-photos" width="24" height="24"/>
-        <namedColor name="AppThemeColor">
-            <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="AppThemeColor">
             <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
