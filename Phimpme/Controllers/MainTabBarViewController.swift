@@ -21,7 +21,7 @@ class MainTabBarViewController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tabBarController?.selectedIndex = 1
+        self.selectedIndex = 1
         self.delegate = self
     }
 
