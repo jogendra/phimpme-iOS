@@ -1,0 +1,6 @@
+framework module NMAnimatedTabBarItem {
+  umbrella header "NMAnimatedTabBarItem-umbrella.h"
+
+  export *
+  module * { export * }
+}

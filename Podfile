@@ -6,5 +6,6 @@ target 'Phimpme' do
   use_frameworks!
 
   # Pods for Phimpme
+pod 'NMAnimatedTabBarItem'
 
 end

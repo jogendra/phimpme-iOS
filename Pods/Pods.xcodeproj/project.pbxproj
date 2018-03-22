@@ -7,43 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		516E46A9D2853BF5D7A0160CCB300D70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CAC1FAF2698A9BAF81A7E08ACC7D0661 /* Pods-Phimpme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F711D43C3F731CF6CC8D110CD4302354 /* Pods-Phimpme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E41D43004A229EE101664A7C4A1D1245 /* Pods-Phimpme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847065E67A6BD831E1C281A850403A7 /* Pods-Phimpme-dummy.m */; };
+		4B23C990338C5B925124E09C2B15B1F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5342BC92B6A88F71E4023DE64A4B0A8C /* NMAnimatedTabBarItem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B934C3E1F1395FD926955B0E2D02B32 /* NMAnimatedTabBarItem-dummy.m */; };
+		6BB095868EBFC451821F476523801E4A /* NMAnimatedTabBarItem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF186CE13F90E19FC3C6204D6E32F37E /* NMAnimatedTabBarItem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C15164BB9CFEC389542C076656748DC /* Pods-Phimpme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F711D43C3F731CF6CC8D110CD4302354 /* Pods-Phimpme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA4952B4BA734F1B4F04B0501AB6B7E /* Pods-Phimpme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847065E67A6BD831E1C281A850403A7 /* Pods-Phimpme-dummy.m */; };
+		A67E0CDA20779A77B100F93AAEC29C4C /* NMRotationDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E7D9684D82AA7A59DCC81D5F80CE25 /* NMRotationDirection.swift */; };
+		AC2E5263EC02813F31BFA945A63DD103 /* NMAnimatedTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA65E89BBAA70DDF4A34D57BDC6C4024 /* NMAnimatedTabBarItem.swift */; };
+		BE8498EE3C65F1CAA2F1889FC85C8602 /* NMAnimationtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = A279D85C3ADE17DEADE42B84AB0BF354 /* NMAnimationtype.swift */; };
+		EE056D3AE8FBD4F4B06AF8B16E7C8585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7CE1707FC2976CDC8428B10AEC23F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A6F93515B92753961D108C0A2567480;
+			remoteInfo = NMAnimatedTabBarItem;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03B70C5948E54113FCFF25D1E80CA864 /* Pods-Phimpme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phimpme.release.xcconfig"; sourceTree = "<group>"; };
 		0FC183CFDA8BE44AAF4F2FB175E7146B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C2C0D7988FFDACB78AB994D1B1A494B /* NMAnimatedTabBarItem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NMAnimatedTabBarItem.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CA9DD6875DB86106602D1398D00C76E /* Pods-Phimpme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Phimpme.modulemap"; sourceTree = "<group>"; };
 		6DA7B6D7DC3AE298DCBAA8A603128F03 /* Pods-Phimpme-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phimpme-resources.sh"; sourceTree = "<group>"; };
-		6F4CDC8BB81B57FDF8BB588F7D265BDD /* Pods_Phimpme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Phimpme.framework; path = "Pods-Phimpme.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		700D3198318B491F218048B17F469F77 /* Pods-Phimpme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Phimpme.debug.xcconfig"; sourceTree = "<group>"; };
 		73D277BBE7B4C7CB2CFED2A5E42CC39D /* Pods-Phimpme-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Phimpme-frameworks.sh"; sourceTree = "<group>"; };
 		7847065E67A6BD831E1C281A850403A7 /* Pods-Phimpme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Phimpme-dummy.m"; sourceTree = "<group>"; };
+		7B934C3E1F1395FD926955B0E2D02B32 /* NMAnimatedTabBarItem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NMAnimatedTabBarItem-dummy.m"; sourceTree = "<group>"; };
+		8C9FA06A0BEEEF646FE0AE705631C46D /* NMAnimatedTabBarItem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NMAnimatedTabBarItem.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A279D85C3ADE17DEADE42B84AB0BF354 /* NMAnimationtype.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMAnimationtype.swift; path = Classes/NMAnimationtype.swift; sourceTree = "<group>"; };
+		A4315E314AB4A5C94EF920A1BC0BE290 /* Pods_Phimpme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Phimpme.framework; path = "Pods-Phimpme.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA7BA541A4B8A6D027685C24CB629619 /* NMAnimatedTabBarItem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NMAnimatedTabBarItem.framework; path = NMAnimatedTabBarItem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4E3A9A2A8E610BD39F303F53D9CA5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48A4A485DBBA342F9D6D637853E19A5 /* NMAnimatedTabBarItem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMAnimatedTabBarItem-prefix.pch"; sourceTree = "<group>"; };
+		E1E7D9684D82AA7A59DCC81D5F80CE25 /* NMRotationDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMRotationDirection.swift; path = Classes/NMRotationDirection.swift; sourceTree = "<group>"; };
 		E9B63FBB5315CD1769D0DC1DAD613220 /* Pods-Phimpme-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Phimpme-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA65E89BBAA70DDF4A34D57BDC6C4024 /* NMAnimatedTabBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NMAnimatedTabBarItem.swift; path = Classes/NMAnimatedTabBarItem.swift; sourceTree = "<group>"; };
+		EF186CE13F90E19FC3C6204D6E32F37E /* NMAnimatedTabBarItem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NMAnimatedTabBarItem-umbrella.h"; sourceTree = "<group>"; };
 		F711D43C3F731CF6CC8D110CD4302354 /* Pods-Phimpme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Phimpme-umbrella.h"; sourceTree = "<group>"; };
 		F881F51FE3B89A71483648E8C98441E6 /* Pods-Phimpme-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Phimpme-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A51EFE004DEB8835BE64F0F4A867C368 /* Frameworks */ = {
+		5D6918B7DA6DCE636FBE90FB5A7729C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				516E46A9D2853BF5D7A0160CCB300D70 /* Foundation.framework in Frameworks */,
+				EE056D3AE8FBD4F4B06AF8B16E7C8585 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8AB218C1F55B854338AEDCCF19F1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B23C990338C5B925124E09C2B15B1F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28353EC8B08469F9A9C666AC88EC6EF2 /* Products */ = {
+		029DD8DBC776E2C61AAE7A2974EE39F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F4CDC8BB81B57FDF8BB588F7D265BDD /* Pods_Phimpme.framework */,
+				AA7BA541A4B8A6D027685C24CB629619 /* NMAnimatedTabBarItem.framework */,
+				A4315E314AB4A5C94EF920A1BC0BE290 /* Pods_Phimpme.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,12 +91,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3C2BD4012DC2F89C75A95DF33DE0723A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E30AD91B905F4F582A4C224E50C0F8D1 /* NMAnimatedTabBarItem */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				28353EC8B08469F9A9C666AC88EC6EF2 /* Products */,
+				3C2BD4012DC2F89C75A95DF33DE0723A /* Pods */,
+				029DD8DBC776E2C61AAE7A2974EE39F7 /* Products */,
 				342DC6EECF4F7A6D57897490B72FC063 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -74,12 +118,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD962B38BECE72262C24CDD502F5FE6C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4E3A9A2A8E610BD39F303F53D9CA5C /* Info.plist */,
+				5C2C0D7988FFDACB78AB994D1B1A494B /* NMAnimatedTabBarItem.modulemap */,
+				8C9FA06A0BEEEF646FE0AE705631C46D /* NMAnimatedTabBarItem.xcconfig */,
+				7B934C3E1F1395FD926955B0E2D02B32 /* NMAnimatedTabBarItem-dummy.m */,
+				D48A4A485DBBA342F9D6D637853E19A5 /* NMAnimatedTabBarItem-prefix.pch */,
+				EF186CE13F90E19FC3C6204D6E32F37E /* NMAnimatedTabBarItem-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NMAnimatedTabBarItem";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E30AD91B905F4F582A4C224E50C0F8D1 /* NMAnimatedTabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				EA65E89BBAA70DDF4A34D57BDC6C4024 /* NMAnimatedTabBarItem.swift */,
+				A279D85C3ADE17DEADE42B84AB0BF354 /* NMAnimationtype.swift */,
+				E1E7D9684D82AA7A59DCC81D5F80CE25 /* NMRotationDirection.swift */,
+				CD962B38BECE72262C24CDD502F5FE6C /* Support Files */,
+			);
+			name = NMAnimatedTabBarItem;
+			path = NMAnimatedTabBarItem;
 			sourceTree = "<group>";
 		};
 		E48624DF786FDBFD996365AE867EDFEE /* Pods-Phimpme */ = {
@@ -103,32 +173,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2D7F49386A55733B8EEA2A748E021231 /* Headers */ = {
+		5141BDCD6F40917E7A98FED4BB014C3E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC1FAF2698A9BAF81A7E08ACC7D0661 /* Pods-Phimpme-umbrella.h in Headers */,
+				6BB095868EBFC451821F476523801E4A /* NMAnimatedTabBarItem-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6318FE6F6FA1A4028DF10104D5C769AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C15164BB9CFEC389542C076656748DC /* Pods-Phimpme-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		81E67091F9746265D49DE7E8E1843981 /* Pods-Phimpme */ = {
+		07F2BC662237146488A7AFB0B8848EF4 /* Pods-Phimpme */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C622161A545525CABF68B4B529670FBB /* Build configuration list for PBXNativeTarget "Pods-Phimpme" */;
+			buildConfigurationList = 72C1135514770B9DB8CCF5CA93F14F8C /* Build configuration list for PBXNativeTarget "Pods-Phimpme" */;
 			buildPhases = (
-				E49FF0352F7C663CB5F0DC203E6CFF08 /* Sources */,
-				A51EFE004DEB8835BE64F0F4A867C368 /* Frameworks */,
-				2D7F49386A55733B8EEA2A748E021231 /* Headers */,
+				DC24B239094106848C3A4A7C9DB50D0A /* Sources */,
+				6F8AB218C1F55B854338AEDCCF19F1D3 /* Frameworks */,
+				6318FE6F6FA1A4028DF10104D5C769AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				355F6065A41A981731FDD9EBCFD685BA /* PBXTargetDependency */,
+			);
+			name = "Pods-Phimpme";
+			productName = "Pods-Phimpme";
+			productReference = A4315E314AB4A5C94EF920A1BC0BE290 /* Pods_Phimpme.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A6F93515B92753961D108C0A2567480 /* NMAnimatedTabBarItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28836C90A86BCF21725CB6BCAB65E867 /* Build configuration list for PBXNativeTarget "NMAnimatedTabBarItem" */;
+			buildPhases = (
+				D59EBF0EB771C0380DD8FDDDF63313D0 /* Sources */,
+				5D6918B7DA6DCE636FBE90FB5A7729C4 /* Frameworks */,
+				5141BDCD6F40917E7A98FED4BB014C3E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Phimpme";
-			productName = "Pods-Phimpme";
-			productReference = 6F4CDC8BB81B57FDF8BB588F7D265BDD /* Pods_Phimpme.framework */;
+			name = NMAnimatedTabBarItem;
+			productName = NMAnimatedTabBarItem;
+			productReference = AA7BA541A4B8A6D027685C24CB629619 /* NMAnimatedTabBarItem.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,28 +244,49 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 28353EC8B08469F9A9C666AC88EC6EF2 /* Products */;
+			productRefGroup = 029DD8DBC776E2C61AAE7A2974EE39F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81E67091F9746265D49DE7E8E1843981 /* Pods-Phimpme */,
+				2A6F93515B92753961D108C0A2567480 /* NMAnimatedTabBarItem */,
+				07F2BC662237146488A7AFB0B8848EF4 /* Pods-Phimpme */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E49FF0352F7C663CB5F0DC203E6CFF08 /* Sources */ = {
+		D59EBF0EB771C0380DD8FDDDF63313D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E41D43004A229EE101664A7C4A1D1245 /* Pods-Phimpme-dummy.m in Sources */,
+				5342BC92B6A88F71E4023DE64A4B0A8C /* NMAnimatedTabBarItem-dummy.m in Sources */,
+				AC2E5263EC02813F31BFA945A63DD103 /* NMAnimatedTabBarItem.swift in Sources */,
+				BE8498EE3C65F1CAA2F1889FC85C8602 /* NMAnimationtype.swift in Sources */,
+				A67E0CDA20779A77B100F93AAEC29C4C /* NMRotationDirection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC24B239094106848C3A4A7C9DB50D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA4952B4BA734F1B4F04B0501AB6B7E /* Pods-Phimpme-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		355F6065A41A981731FDD9EBCFD685BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NMAnimatedTabBarItem;
+			target = 2A6F93515B92753961D108C0A2567480 /* NMAnimatedTabBarItem */;
+			targetProxy = E7CE1707FC2976CDC8428B10AEC23F34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		0B582360A69EA144FED0E31DC8038356 /* Debug */ = {
+		12DF8A6A15251BD8A7AB97C6D180FB27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 700D3198318B491F218048B17F469F77 /* Pods-Phimpme.debug.xcconfig */;
 			buildSettings = {
@@ -196,11 +313,48 @@
 				PRODUCT_NAME = Pods_Phimpme;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		1B92A449453B481B6BBE4B975247FC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B70C5948E54113FCFF25D1E80CA864 /* Pods-Phimpme.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Phimpme/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Phimpme/Pods-Phimpme.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Phimpme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		323A24856F1A4871A780301AF5C02A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -265,40 +419,6 @@
 			};
 			name = Debug;
 		};
-		BEC0E6A396E3AAD16D5030B3E0C889DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03B70C5948E54113FCFF25D1E80CA864 /* Pods-Phimpme.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Phimpme/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Phimpme/Pods-Phimpme.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Phimpme;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		CA33F186435244FD0FD5B7325332656C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,9 +477,81 @@
 			};
 			name = Release;
 		};
+		E6401123866CCCC209E77D7E2068AE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9FA06A0BEEEF646FE0AE705631C46D /* NMAnimatedTabBarItem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMAnimatedTabBarItem/NMAnimatedTabBarItem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMAnimatedTabBarItem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NMAnimatedTabBarItem/NMAnimatedTabBarItem.modulemap";
+				PRODUCT_NAME = NMAnimatedTabBarItem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB01DEE3AB7D895BB5BCC4E1B1D17363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9FA06A0BEEEF646FE0AE705631C46D /* NMAnimatedTabBarItem.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NMAnimatedTabBarItem/NMAnimatedTabBarItem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NMAnimatedTabBarItem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NMAnimatedTabBarItem/NMAnimatedTabBarItem.modulemap";
+				PRODUCT_NAME = NMAnimatedTabBarItem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28836C90A86BCF21725CB6BCAB65E867 /* Build configuration list for PBXNativeTarget "NMAnimatedTabBarItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6401123866CCCC209E77D7E2068AE9B /* Debug */,
+				FB01DEE3AB7D895BB5BCC4E1B1D17363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -369,11 +561,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C622161A545525CABF68B4B529670FBB /* Build configuration list for PBXNativeTarget "Pods-Phimpme" */ = {
+		72C1135514770B9DB8CCF5CA93F14F8C /* Build configuration list for PBXNativeTarget "Pods-Phimpme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B582360A69EA144FED0E31DC8038356 /* Debug */,
-				BEC0E6A396E3AAD16D5030B3E0C889DF /* Release */,
+				12DF8A6A15251BD8A7AB97C6D180FB27 /* Debug */,
+				1B92A449453B481B6BBE4B975247FC48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
