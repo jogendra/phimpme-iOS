@@ -209,6 +209,15 @@
                         <color key="backgroundColor" name="AppThemeColor"/>
                         <viewLayoutGuide key="safeArea" id="ZHX-6g-3RP"/>
                     </view>
+                    <connections>
+                        <outlet property="aboutPhimpmeView" destination="W4J-3L-d98" id="Um1-5m-GUX"/>
+                        <outlet property="hiddenFolderView" destination="bg3-tV-p4s" id="Qu5-KM-4iN"/>
+                        <outlet property="rateUsView" destination="a9S-JI-Nt4" id="ioh-kf-1ma"/>
+                        <outlet property="settingsView" destination="FWt-9h-Fh3" id="ozB-LC-hrY"/>
+                        <outlet property="shareFolderView" destination="5f9-H9-IDr" id="HWB-ub-kgK"/>
+                        <outlet property="sharePhimpmeView" destination="xxa-hu-Tey" id="pq6-Kc-zck"/>
+                        <outlet property="uploadHistoryView" destination="cWk-8L-Z7e" id="QzC-8p-Ge8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TvH-Xw-fqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -239,11 +248,6 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
-                            <integer key="value" value="0"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="qDl-q6-Cnp" kind="relationship" relationship="viewControllers" id="OOl-4n-d9r"/>
                         <segue destination="EMg-T8-Uh8" kind="relationship" relationship="viewControllers" id="Q5R-aE-sq5"/>
