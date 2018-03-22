@@ -230,10 +230,10 @@
             </objects>
             <point key="canvasLocation" x="934" y="-292"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar View Controller-->
         <scene sceneID="VrP-xN-Kwb">
             <objects>
-                <tabBarController id="dZj-8c-bIe" sceneMemberID="viewController">
+                <tabBarController id="dZj-8c-bIe" customClass="MainTabBarViewController" customModule="Phimpme" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XZH-f8-L2J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -356,9 +356,6 @@
         <image name="more" width="4" height="20"/>
         <image name="phimpme-logo" width="192" height="192"/>
         <image name="total-photos" width="24" height="24"/>
-        <namedColor name="AppThemeColor">
-            <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="AppThemeColor">
             <color red="0.0" green="0.49399998784065247" blue="0.81599998474121094" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

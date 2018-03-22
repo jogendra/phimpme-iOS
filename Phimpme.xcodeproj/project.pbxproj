@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		400167D32061A325003EBAE4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400167D22061A324003EBAE4 /* MenuViewController.swift */; };
+		400167D52063AF82003EBAE4 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400167D42063AF82003EBAE4 /* MainTabBarViewController.swift */; };
 		408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0620596AC500BDC313 /* AppDelegate.swift */; };
 		408F1A0920596AC500BDC313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0820596AC500BDC313 /* ViewController.swift */; };
 		408F1A0C20596AC500BDC313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F1A0A20596AC500BDC313 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		400167D22061A324003EBAE4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		400167D42063AF82003EBAE4 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		408F1A0320596AC500BDC313 /* Phimpme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phimpme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F1A0620596AC500BDC313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408F1A0820596AC500BDC313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				40F899B62060F83700471ADF /* AccountsTableViewController.swift */,
 				40F899B8206137B600471ADF /* CameraViewController.swift */,
 				400167D22061A324003EBAE4 /* MenuViewController.swift */,
+				400167D42063AF82003EBAE4 /* MainTabBarViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -224,11 +227,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Phimpme/Pods-Phimpme-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RAMAnimatedTabBarController/RAMAnimatedTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/NMAnimatedTabBarItem/NMAnimatedTabBarItem.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMAnimatedTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NMAnimatedTabBarItem.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -245,6 +248,7 @@
 				408F1A0920596AC500BDC313 /* ViewController.swift in Sources */,
 				400167D32061A325003EBAE4 /* MenuViewController.swift in Sources */,
 				40F899B9206137B600471ADF /* CameraViewController.swift in Sources */,
+				400167D52063AF82003EBAE4 /* MainTabBarViewController.swift in Sources */,
 				40F899B72060F83700471ADF /* AccountsTableViewController.swift in Sources */,
 				408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */,
 			);
