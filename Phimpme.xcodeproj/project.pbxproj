@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		400167D32061A325003EBAE4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400167D22061A324003EBAE4 /* MenuViewController.swift */; };
 		400167D52063AF82003EBAE4 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400167D42063AF82003EBAE4 /* MainTabBarViewController.swift */; };
+		40688BF42067F1D1005428C2 /* ControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40688BF32067F1D1005428C2 /* ControllerConstants.swift */; };
 		408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0620596AC500BDC313 /* AppDelegate.swift */; };
 		408F1A0920596AC500BDC313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0820596AC500BDC313 /* ViewController.swift */; };
 		408F1A0C20596AC500BDC313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F1A0A20596AC500BDC313 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		400167D22061A324003EBAE4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		400167D42063AF82003EBAE4 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		40688BF32067F1D1005428C2 /* ControllerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerConstants.swift; sourceTree = "<group>"; };
 		408F1A0320596AC500BDC313 /* Phimpme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phimpme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F1A0620596AC500BDC313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408F1A0820596AC500BDC313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,31 @@
 				F2CB302E579EA703C318C373 /* Pods_Phimpme.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40688BF52067F365005428C2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				40688BF32067F1D1005428C2 /* ControllerConstants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4070CE422067EC950067E62A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0D20596AC500BDC313 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4070CE432067ECF50067E62A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408F1A0620596AC500BDC313 /* AppDelegate.swift */,
+				408F1A1220596AC500BDC313 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4086D8BA20619E0300CE2DE4 /* Controllers */ = {
@@ -98,11 +125,11 @@
 		408F1A0520596AC500BDC313 /* Phimpme */ = {
 			isa = PBXGroup;
 			children = (
-				408F1A0620596AC500BDC313 /* AppDelegate.swift */,
 				4086D8BA20619E0300CE2DE4 /* Controllers */,
 				4086D8BB20619E2100CE2DE4 /* Storyboards */,
-				408F1A0D20596AC500BDC313 /* Assets.xcassets */,
-				408F1A1220596AC500BDC313 /* Info.plist */,
+				4070CE422067EC950067E62A /* Assets */,
+				4070CE432067ECF50067E62A /* Supporting Files */,
+				40688BF52067F365005428C2 /* Helpers */,
 			);
 			path = Phimpme;
 			sourceTree = "<group>";
@@ -249,6 +276,7 @@
 				400167D32061A325003EBAE4 /* MenuViewController.swift in Sources */,
 				40F899B9206137B600471ADF /* CameraViewController.swift in Sources */,
 				400167D52063AF82003EBAE4 /* MainTabBarViewController.swift in Sources */,
+				40688BF42067F1D1005428C2 /* ControllerConstants.swift in Sources */,
 				40F899B72060F83700471ADF /* AccountsTableViewController.swift in Sources */,
 				408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */,
 			);
