@@ -10,7 +10,7 @@ import UIKit
 
 class AccountsTableViewController: UITableViewController {
 
-    var accountsName: [String] = ["Facebook", "Twitter", "Instagram", "NextCloud", "Pinterest", "Flickr", "Dropbox", "Owncloud", "Box", "Tumblr"]
+    var accountsName: [String] = [ControllerConstants.Accounts.facebook, ControllerConstants.Accounts.twitter, ControllerConstants.Accounts.instagram, ControllerConstants.Accounts.nextCloud, ControllerConstants.Accounts.pinterest, ControllerConstants.Accounts.flickr, ControllerConstants.Accounts.dropBox, ControllerConstants.Accounts.owncloud, ControllerConstants.Accounts.box, ControllerConstants.Accounts.tumblr]
     var accountsImagesName: [String] = ["facebook-circled-icon", "twitter-icon", "instagram-icon", "nextcloud-icon", "pinterest-icon", "flickr-filled-icon", "dropbox-icon", "owncloud-icon", "box-icon", "tumblr-icon"]
 
     override func viewDidLoad() {
