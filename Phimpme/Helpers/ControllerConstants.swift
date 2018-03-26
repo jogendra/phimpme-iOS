@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+class ControllerConstants {
+
+    static let accountsCellIdentifier: String = "accountsCell"
+}

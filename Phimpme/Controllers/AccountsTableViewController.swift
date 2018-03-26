@@ -32,7 +32,7 @@ class AccountsTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "accountsCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: ControllerConstants.accountsCellIdentifier, for: indexPath)
         cell.textLabel?.text = accountsName[indexPath.row]
         cell.imageView?.image = UIImage(named: accountsImagesName[indexPath.row])
 
