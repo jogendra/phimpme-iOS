@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class ControllerConstants {
 
@@ -23,5 +24,18 @@ class ControllerConstants {
         static let owncloud: String = "Owncloud"
         static let box: String = "Box"
         static let tumblr: String = "Tumblr"
+    }
+
+    struct Images {
+        static let facebookCircledIcon: UIImage = UIImage(named: "facebook-circled-icon")
+        static let twitterIcon: UIImage = UIImage(named: "twitter-icon")
+        static let instagramIcon: UIImage = UIImage(named: "instagram-icon")
+        static let nextCloudIcon: UIImage = UIImage(named: "nextcloud-icon")
+        static let pinterestIcon: UIImage = UIImage(named: "pinterest-icon")
+        static let flickrFilledIcon: UIImage = UIImage(named: "flickr-filled-icon")
+        static let dropBoxIcon: UIImage = UIImage(named: "dropbox-icon")
+        static let owncloudIcon: UIImage = UIImage(named: "owncloud-icon")
+        static let boxIcon: UIImage = UIImage(named: "box-icon")
+        static let tumblrIcon: UIImage = UIImage(named: "tumblr-icon")
     }
 }
