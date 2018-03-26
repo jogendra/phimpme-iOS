@@ -8,6 +8,10 @@
 
 import UIKit
 
+fileprivate struct DefaultConstants {
+    static let menuViewsCornerRadius: CGFloat = 8.0
+}
+
 class MenuViewController: UIViewController {
 
     @IBOutlet weak var shareFolderView: UIView!
@@ -31,13 +35,13 @@ class MenuViewController: UIViewController {
 
     private func initialUISetups() {
         // Set corner radius
-        shareFolderView.layer.cornerRadius = 8.0
-        hiddenFolderView.layer.cornerRadius = 8.0
-        settingsView.layer.cornerRadius = 8.0
-        rateUsView.layer.cornerRadius = 8.0
-        uploadHistoryView.layer.cornerRadius = 8.0
-        sharePhimpmeView.layer.cornerRadius = 8.0
-        aboutPhimpmeView.layer.cornerRadius = 8.0
+        shareFolderView.layer.cornerRadius = DefaultConstants.menuViewsCornerRadius
+        hiddenFolderView.layer.cornerRadius = DefaultConstants.menuViewsCornerRadius
+        settingsView.layer.cornerRadius = DefaultConstants.menuViewsCornerRadius
+        rateUsView.layer.cornerRadius = DefaultConstants.menuViewsCornerRadius
+        uploadHistoryView.layer.cornerRadius = DefaultConstants.menuViewsCornerRadius
+        sharePhimpmeView.layer.cornerRadius = DefaultConstants.menuViewsCornerRadius
+        aboutPhimpmeView.layer.cornerRadius = DefaultConstants.menuViewsCornerRadius
     }
 
     @IBAction func didTapBackButton(_ sender: Any) {
