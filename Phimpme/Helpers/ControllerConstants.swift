@@ -27,15 +27,15 @@ class ControllerConstants {
     }
 
     struct Images {
-        static let facebookCircledIcon: UIImage = UIImage(named: "facebook-circled-icon")
-        static let twitterIcon: UIImage = UIImage(named: "twitter-icon")
-        static let instagramIcon: UIImage = UIImage(named: "instagram-icon")
-        static let nextCloudIcon: UIImage = UIImage(named: "nextcloud-icon")
-        static let pinterestIcon: UIImage = UIImage(named: "pinterest-icon")
-        static let flickrFilledIcon: UIImage = UIImage(named: "flickr-filled-icon")
-        static let dropBoxIcon: UIImage = UIImage(named: "dropbox-icon")
-        static let owncloudIcon: UIImage = UIImage(named: "owncloud-icon")
-        static let boxIcon: UIImage = UIImage(named: "box-icon")
-        static let tumblrIcon: UIImage = UIImage(named: "tumblr-icon")
+        static let facebookCircledIcon = UIImage(named: "facebook-circled-icon")
+        static let twitterIcon = UIImage(named: "twitter-icon")
+        static let instagramIcon = UIImage(named: "instagram-icon")
+        static let nextCloudIcon = UIImage(named: "nextcloud-icon")
+        static let pinterestIcon = UIImage(named: "pinterest-icon")
+        static let flickrFilledIcon = UIImage(named: "flickr-filled-icon")
+        static let dropBoxIcon = UIImage(named: "dropbox-icon")
+        static let owncloudIcon = UIImage(named: "owncloud-icon")
+        static let boxIcon = UIImage(named: "box-icon")
+        static let tumblrIcon = UIImage(named: "tumblr-icon")
     }
 }

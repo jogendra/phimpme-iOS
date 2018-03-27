@@ -11,7 +11,7 @@ import UIKit
 class AccountsTableViewController: UITableViewController {
 
     var accountsName: [String] = [ControllerConstants.Accounts.facebook, ControllerConstants.Accounts.twitter, ControllerConstants.Accounts.instagram, ControllerConstants.Accounts.nextCloud, ControllerConstants.Accounts.pinterest, ControllerConstants.Accounts.flickr, ControllerConstants.Accounts.dropBox, ControllerConstants.Accounts.owncloud, ControllerConstants.Accounts.box, ControllerConstants.Accounts.tumblr]
-    var accountsImages: [String] = [ControllerConstants.Images.facebookCircledIcon, ControllerConstants.Images.twitterIcon, ControllerConstants.Images.instagramIcon, ControllerConstants.Images.nextCloudIcon, ControllerConstants.Images.pinterestIcon, ControllerConstants.Images.flickrFilledIcon, ControllerConstants.Images.dropBoxIcon, ControllerConstants.Images.owncloudIcon, ControllerConstants.Images.boxIcon, ControllerConstants.Images.tumblrIcon]
+    var accountsImages: [UIImage?] = [ControllerConstants.Images.facebookCircledIcon, ControllerConstants.Images.twitterIcon, ControllerConstants.Images.instagramIcon, ControllerConstants.Images.nextCloudIcon, ControllerConstants.Images.pinterestIcon, ControllerConstants.Images.flickrFilledIcon, ControllerConstants.Images.dropBoxIcon, ControllerConstants.Images.owncloudIcon, ControllerConstants.Images.boxIcon, ControllerConstants.Images.tumblrIcon]
 
     override func viewDidLoad() {
         super.viewDidLoad()
