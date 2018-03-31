@@ -12,6 +12,7 @@ import UIKit
 class ControllerConstants {
 
     static let accountsCellIdentifier: String = "accountsCell"
+    static let settingsCellIdentifier: String = "settingsCell"
 
     struct Accounts {
         static let facebook: String = "Facebook"
