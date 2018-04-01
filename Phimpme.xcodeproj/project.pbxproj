@@ -12,6 +12,7 @@
 		40688BF42067F1D1005428C2 /* ControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40688BF32067F1D1005428C2 /* ControllerConstants.swift */; };
 		406A8ACD206FCFBE0094BA9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A8ACC206FCFBE0094BA9A /* SettingsViewController.swift */; };
 		406A8ACF2070BA2D0094BA9A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A8ACE2070BA2D0094BA9A /* Toast.swift */; };
+		406A8AD12070D7FA0094BA9A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406A8AD02070D7FA0094BA9A /* Extensions.swift */; };
 		408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0620596AC500BDC313 /* AppDelegate.swift */; };
 		408F1A0920596AC500BDC313 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408F1A0820596AC500BDC313 /* GalleryViewController.swift */; };
 		408F1A0C20596AC500BDC313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408F1A0A20596AC500BDC313 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 		40688BF32067F1D1005428C2 /* ControllerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerConstants.swift; sourceTree = "<group>"; };
 		406A8ACC206FCFBE0094BA9A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		406A8ACE2070BA2D0094BA9A /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		406A8AD02070D7FA0094BA9A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		408F1A0320596AC500BDC313 /* Phimpme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phimpme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408F1A0620596AC500BDC313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408F1A0820596AC500BDC313 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				40688BF32067F1D1005428C2 /* ControllerConstants.swift */,
 				406A8ACE2070BA2D0094BA9A /* Toast.swift */,
+				406A8AD02070D7FA0094BA9A /* Extensions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				40F899B9206137B600471ADF /* CameraViewController.swift in Sources */,
 				400167D52063AF82003EBAE4 /* MainTabBarViewController.swift in Sources */,
 				40688BF42067F1D1005428C2 /* ControllerConstants.swift in Sources */,
+				406A8AD12070D7FA0094BA9A /* Extensions.swift in Sources */,
 				40F899B72060F83700471ADF /* AccountsTableViewController.swift in Sources */,
 				408F1A0720596AC500BDC313 /* AppDelegate.swift in Sources */,
 				406A8ACF2070BA2D0094BA9A /* Toast.swift in Sources */,

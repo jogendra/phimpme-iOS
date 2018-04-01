@@ -16,8 +16,9 @@ class GalleryViewController: UIViewController {
     }
 
     @IBAction func didTapSettingsMenu(_ sender: Any) {
-        let settingsStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let settingsViewController = settingsStoryboard.instantiateViewController(withIdentifier: "settingsVC")
+        guard let settingsViewController = UIStoryboard.settingsVC() as? SettingsViewController else {
+            return
+        }
         if let navigation = navigationController {
             navigation.pushViewController(settingsViewController, animated: true)
         }
