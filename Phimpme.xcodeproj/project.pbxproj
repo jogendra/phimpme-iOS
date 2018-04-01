@@ -76,6 +76,14 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		406A8AD42070E09A0094BA9A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				406A8AD22070DFE40094BA9A /* CameraController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		4070CE422067EC950067E62A /* Assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +149,7 @@
 				4070CE422067EC950067E62A /* Assets */,
 				4070CE432067ECF50067E62A /* Supporting Files */,
 				40688BF52067F365005428C2 /* Helpers */,
-				406A8AD22070DFE40094BA9A /* CameraController.swift */,
+				406A8AD42070E09A0094BA9A /* Services */,
 			);
 			path = Phimpme;
 			sourceTree = "<group>";
