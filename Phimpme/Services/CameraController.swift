@@ -65,18 +65,13 @@ extension CameraController {
                 if captureSession.canAddInput(self.rearCameraInput!) { captureSession.addInput(self.rearCameraInput!) }
 
                 self.currentCameraPosition = .rear
-            }
-
-            else if let frontCamera = self.frontCamera {
+            } else if let frontCamera = self.frontCamera {
                 self.frontCameraInput = try AVCaptureDeviceInput(device: frontCamera)
 
-                if captureSession.canAddInput(self.frontCameraInput!) { captureSession.addInput(self.frontCameraInput!) }
-                else { throw CameraControllerError.inputsAreInvalid }
+                if captureSession.canAddInput(self.frontCameraInput!) { captureSession.addInput(self.frontCameraInput!) } else { throw CameraControllerError.inputsAreInvalid }
 
                 self.currentCameraPosition = .front
-            }
-
-            else { throw CameraControllerError.noCamerasAvailable }
+            } else { throw CameraControllerError.noCamerasAvailable }
         }
 
         func configurePhotoOutput() throws {
@@ -95,9 +90,7 @@ extension CameraController {
                 try configureCaptureDevices()
                 try configureDeviceInputs()
                 try configurePhotoOutput()
-            }
-
-            catch {
+            } catch {
                 DispatchQueue.main.async {
                     completionHandler(error)
                 }
@@ -140,9 +133,7 @@ extension CameraController {
                 captureSession.addInput(self.frontCameraInput!)
 
                 self.currentCameraPosition = .front
-            }
-
-            else {
+            } else {
                 throw CameraControllerError.invalidOperation
             }
         }
@@ -159,9 +150,7 @@ extension CameraController {
                 captureSession.addInput(self.rearCameraInput!)
 
                 self.currentCameraPosition = .rear
-            }
-
-            else { throw CameraControllerError.invalidOperation }
+            } else { throw CameraControllerError.invalidOperation }
         }
 
         switch currentCameraPosition {
@@ -190,15 +179,11 @@ extension CameraController {
 extension CameraController: AVCapturePhotoCaptureDelegate {
     public func photoOutput(_ captureOutput: AVCapturePhotoOutput, didFinishProcessingPhoto photoSampleBuffer: CMSampleBuffer?, previewPhoto previewPhotoSampleBuffer: CMSampleBuffer?,
                             resolvedSettings: AVCaptureResolvedPhotoSettings, bracketSettings: AVCaptureBracketedStillImageSettings?, error: Swift.Error?) {
-        if let error = error { self.photoCaptureCompletionBlock?(nil, error) }
-
-        else if let buffer = photoSampleBuffer, let data = AVCapturePhotoOutput.jpegPhotoDataRepresentation(forJPEGSampleBuffer: buffer, previewPhotoSampleBuffer: nil),
+        if let error = error { self.photoCaptureCompletionBlock?(nil, error) } else if let buffer = photoSampleBuffer, let data = AVCapturePhotoOutput.jpegPhotoDataRepresentation(forJPEGSampleBuffer: buffer, previewPhotoSampleBuffer: nil),
             let image = UIImage(data: data) {
 
             self.photoCaptureCompletionBlock?(image, nil)
-        }
-
-        else {
+        } else {
             self.photoCaptureCompletionBlock?(nil, CameraControllerError.unknown)
         }
     }

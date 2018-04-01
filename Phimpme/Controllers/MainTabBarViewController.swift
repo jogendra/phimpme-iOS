@@ -9,7 +9,7 @@
 import UIKit
 import NMAnimatedTabBarItem
 
-enum TabBarPage : Int {
+enum TabBarPage: Int {
     case camera
     case gallery
     case accounts
@@ -25,11 +25,11 @@ class MainTabBarViewController: UITabBarController, UITabBarControllerDelegate {
         self.delegate = self
     }
 
-    //MARK: - UITabBarControllerDelegate
+    // MARK: - UITabBarControllerDelegate
 
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        let indexOfTab = tabBarController.viewControllers?.index(of:viewController)
-        var animationType:NMAnimationtype?
+        let indexOfTab = tabBarController.viewControllers?.index(of: viewController)
+        var animationType: NMAnimationtype?
         switch indexOfTab {
         case TabBarPage.camera.rawValue?:
             animationType = NMAnimationtype.Bounce

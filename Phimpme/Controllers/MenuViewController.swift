@@ -8,7 +8,7 @@
 
 import UIKit
 
-fileprivate struct DefaultConstants {
+private struct DefaultConstants {
     static let menuViewsCornerRadius: CGFloat = 8.0
 }
 

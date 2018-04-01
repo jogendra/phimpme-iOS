@@ -25,29 +25,29 @@
 import UIKit
 
 @objc open class NMAnimateTabBarItem: NSObject {
-    
+
     ///  Options for animating. Default transitionFlipFromRight
     open var transitionOptions: UIViewAnimationOptions = UIViewAnimationOptions.transitionFlipFromRight
-    
+
     /// The duration of the animation. Default 0.5
     open var duration: CGFloat = 0.5
-    
+
     /// Animation direction (left, right).
     open var direction: NMRotationDirection?
-    
+
     /// Frame Animation array list
     @nonobjc open var animationImages: Array<CGImage> = Array()
-    
+
     // MARK: NMAnimationKey constants
-    
+
     struct NMAnimationKeys {
         static let Scale = "transform.scale"
         static let Rotation = "transform.rotation"
         static let KeyFrame = "contents"
     }
-    
-    @objc public func animateTabBarItem(_ tabBar:UITabBar,_ tabIndex:Int,_ animationType:NMAnimationtype) {
-        if let selectedItemImage : UIImageView = tabBar.subviews[tabIndex+1].subviews.first as? UIImageView {
+
+    @objc public func animateTabBarItem(_ tabBar: UITabBar, _ tabIndex: Int, _ animationType: NMAnimationtype) {
+        if let selectedItemImage: UIImageView = tabBar.subviews[tabIndex+1].subviews.first as? UIImageView {
             switch animationType {
             case NMAnimationtype.Bounce:
                 self.playBounceAnimation(selectedItemImage)
@@ -56,7 +56,7 @@ import UIKit
             case NMAnimationtype.Transition:
                 self.playTransitionAnimations(selectedItemImage)
             case NMAnimationtype.Frame:
-                self.playFrameAnimation(selectedItemImage);
+                self.playFrameAnimation(selectedItemImage)
             default:
                 break
             }
@@ -64,7 +64,7 @@ import UIKit
              fatalError("tabbar item image not set")
         }
     }
-    
+
     @objc public func createImagesArray(_ imageNames: Array<String>) {
         for name: String in imageNames {
             if let image = UIImage(named: name)?.cgImage {
@@ -72,17 +72,17 @@ import UIKit
             }
         }
     }
-    
-    //MARK:- Private API
-    
+
+    // MARK: - Private API
+
     fileprivate func playTransitionAnimations(_ icon: UIImageView) {
         UIView.transition(with: icon, duration: TimeInterval(duration), options: transitionOptions, animations: {
         }, completion: { _ in
         })
     }
-    
+
     fileprivate func playRotationAnimation(_ icon: UIImageView) {
-        let rotate = CABasicAnimation(keyPath:NMAnimationKeys.Rotation)
+        let rotate = CABasicAnimation(keyPath: NMAnimationKeys.Rotation)
         rotate.fromValue = 0.0
         var toValue = CGFloat.pi * 2
         if direction != nil && direction == NMRotationDirection.left {
@@ -92,7 +92,7 @@ import UIKit
         rotate.duration = TimeInterval(duration)
         icon.layer.add(rotate, forKey: nil)
     }
-    
+
     fileprivate func playBounceAnimation(_ icon: UIImageView) {
         let bounce = CAKeyframeAnimation(keyPath: NMAnimationKeys.Scale)
         bounce.values = [1.0, 1.4, 0.9, 1.15, 0.95, 1.02, 1.0]
@@ -100,7 +100,7 @@ import UIKit
         bounce.calculationMode = kCAAnimationCubic
         icon.layer.add(bounce, forKey: nil)
     }
-    
+
     fileprivate func playFrameAnimation(_ icon: UIImageView) {
         if self.animationImages.count == 0 {
             fatalError("images list is empty")
@@ -114,5 +114,5 @@ import UIKit
         frame.fillMode = kCAFillModeForwards
         icon.layer.add(frame, forKey: nil)
     }
-    
+
 }

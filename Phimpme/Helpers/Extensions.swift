@@ -40,7 +40,6 @@ extension UIApplication {
     }
 }
 
-
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
@@ -144,7 +143,6 @@ extension UIColor {
     class var iosPink: UIColor {
         return UIColor(red: 255/255, green: 45/255, blue: 85/255, alpha: 1.0)
     }
-
 
     convenience init(rgb: UInt) {
         self.init(

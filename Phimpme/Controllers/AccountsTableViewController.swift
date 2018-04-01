@@ -20,7 +20,6 @@ class AccountsTableViewController: UITableViewController {
 
     }
 
-
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -49,7 +48,7 @@ class AccountsTableViewController: UITableViewController {
         return 44.0
     }
 
-    @objc func switchChanged(_ sender : UISwitch!){
+    @objc func switchChanged(_ sender: UISwitch!) {
         print("table row switch Changed \(sender.tag)")
         print("The switch is \(sender.isOn ? "ON" : "OFF")")
     }
