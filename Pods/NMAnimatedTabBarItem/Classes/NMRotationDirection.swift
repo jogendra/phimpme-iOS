@@ -7,9 +7,9 @@
 
 import Foundation
 
-//MARK: NMRotation direction  Left/Right
+// MARK: NMRotation direction  Left/Right
 
-@objc public enum NMRotationDirection : Int {
+@objc public enum NMRotationDirection: Int {
     case left
     case right
 }
