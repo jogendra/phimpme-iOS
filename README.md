@@ -101,4 +101,4 @@ Please help us follow the best practice to make it easy for the reviewer as well
 
 ### License
 
-
+This project is currently licensed under the MIT. A copy of [LICENSE](LICENSE) should be present along with the source code.
