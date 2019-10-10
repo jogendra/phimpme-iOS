@@ -14,39 +14,38 @@ NMAnimatedTabBarItem is a Swift based UI module library for adding animation to 
 ## Installation
 
 Just add the NMAnimatedTabBarItem folder to your project. or use [CocoaPods](https://cocoapods.org/pods/NMAnimatedTabBarItem) with Podfile:
-``` ruby
+```ruby
 pod 'NMAnimatedTabBarItem'
 ```
 
 ## Usage
 
 1. Import NMAnimateTabBarItem framework.
-```
+```swift
 import NMAnimatedTabBarItem
 ```
 2. Create an instance of type NMAnimateTabBarItem.
-```
+```swift
 var animatedTabBar = NMAnimateTabBarItem()
 ```
 
 2. Adopt UITabBarControllerDelegate into your class.
-```
+```swift
 class ViewController: UITabBarController , UITabBarControllerDelegate {
   //do Your stuff
 }
 ```
 3. Implement UITabBarControllerDelegate method.
-```
-    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-       
-       return true
-    }
+```swift
+func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+  return true
+}
 ```
 
 4. Find the index of selected tab and call animateTabBarItem.
-```
- let indexOfTab = tabBarController.viewControllers?.index(of:viewController)
- animatedTabBar.animateTabBarItem(self.tabBar, indexOfTab!, NMAnimationtype.Bounce)
+```swift
+let indexOfTab = tabBarController.viewControllers?.index(of:viewController)
+animatedTabBar.animateTabBarItem(self.tabBar, indexOfTab!, 2 , NMAnimationtype.Bounce)
 ```
 4. Make sure UITabBar item images are added.
 
@@ -59,33 +58,33 @@ class ViewController: UITabBarController , UITabBarControllerDelegate {
 
 ## Customized Properties
 * Chenging animation duration.
-```
+```swift
 animatedTabBar.duration = 0.2
 ```
 * Providing transition Options.
-```
+```swift
 animatedTabBar.transitionOptions = UIViewAnimationOptions.transitionFlipFromBottom
 ```
 * Chenging rotation direction
-```
+```swift
 animatedTabBar.direction = NMRotationDirection.right
 ```
 * Passing image names for frame animation
-```
-            animationType = NMAnimationtype.Frame
-            var imagesArray :[String] = []
-            for index in 0...35 {
-                imagesArray.append("frame_\(index)")
-            }
-            animatedTabBar.createImagesArray(imagesArray)
+```swift
+animationType = NMAnimationtype.Frame
+var imagesArray :[String] = []
+for index in 0...35 {
+  imagesArray.append("frame_\(index)")
+}
+animatedTabBar.createImagesArray(imagesArray)
 ```
 * Passing images for frame animation
-```
-            animationType = NMAnimationtype.Frame
-            imagesList.append((UIImage(named: "image.png")?.cgImage)!)
-            imagesList.append((UIImage(named: "image2.png")?.cgImage)!)
-            imagesList.append((UIImage(named: "image3.png")?.cgImage)!)
-            animatedTabBar.animationImages = imagesList
+```swift
+animationType = NMAnimationtype.Frame
+imagesList.append((UIImage(named: "image.png")?.cgImage)!)
+imagesList.append((UIImage(named: "image2.png")?.cgImage)!)
+imagesList.append((UIImage(named: "image3.png")?.cgImage)!)
+animatedTabBar.animationImages = imagesList
 ```
 
 ### Manual
