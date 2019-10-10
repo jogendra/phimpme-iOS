@@ -15,12 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-        application.statusBarStyle = .lightContent
-        let statusBar: UIView = UIApplication.shared.value(forKey: "statusBar") as! UIView
-        if statusBar.responds(to: #selector(setter: UIView.backgroundColor)) {
-            statusBar.backgroundColor = UIColor(named: "AppThemeColor")
-        }
-
         return true
     }
 
