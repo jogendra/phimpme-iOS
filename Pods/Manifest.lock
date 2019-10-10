@@ -1,12 +1,16 @@
 PODS:
-  - NMAnimatedTabBarItem (0.1.1)
+  - NMAnimatedTabBarItem (2.0.0)
 
 DEPENDENCIES:
   - NMAnimatedTabBarItem
 
+SPEC REPOS:
+  trunk:
+    - NMAnimatedTabBarItem
+
 SPEC CHECKSUMS:
-  NMAnimatedTabBarItem: 257784eba1c60cae218634cef285babb29acb124
+  NMAnimatedTabBarItem: ad37e0bc20bba74c25623862a1174ebb57d6caa4
 
 PODFILE CHECKSUM: ff749ed99d8dd5c21bd041980fb1150164cd94a0
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.8.3

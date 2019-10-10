@@ -7,9 +7,9 @@
 
 import Foundation
 
-// MARK: NMAnimation type constants
+//MARK: NMAnimation type constants
 
-@objc public enum NMAnimationtype: Int {
+@objc public enum NMAnimationtype : Int {
     case None
     case Bounce
     case Rotation
